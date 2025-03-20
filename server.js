@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB connection string
-const uri = 'mongodb+srv://collection-app:WvbAzkmupUtZluwY@dev-loans.45jnlrl.mongodb.net/artm-lmos?retryWrites=true&w=majority';
+const uri = 'mongodb://localhost:27017';
 const client = new MongoClient(uri);
 const dbName = 'artm-lmos'; // Replace with your database name
 
